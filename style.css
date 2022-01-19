@@ -15,19 +15,17 @@ body {
 #sglr{
     display: flex;
     margin: 3px auto;
+    align-items: center;
 }
 header{
     padding-top: 1rem;
-}
-.nav img{
-    align-items: center;
 }
 .nav-list {
     border: solid 1px lightcoral;
     padding: 1rem;
     display: flex;
     justify-content: center;
-    list-style-type: none;
+    list-style-type: none; 
 }
 .nav-item {
     text-transform: uppercase;
@@ -41,12 +39,13 @@ header{
 }
 /* >>> bienvenue  */
 #bienvenue{
-    max-width: 1000px; 
+    max-width: 1000px;
 }
 .visuel{
     display: flex;
     max-width: 1200px;
     max-height: 736px;
+    object-fit: contain;
 }
 /* >>>>>> section la marque  */
 #marque-contain{
@@ -59,17 +58,19 @@ header{
     padding: 4rem;
 }
 #txt-marque{
+    border: 1px solid navy;
     padding: 6rem;
     align-self: center;
 }
 h1{
+    font-size: clamp(14px, 12vw, 24px);
     padding-bottom: 4rem;
     align-self: center;
     text-transform: uppercase;
     font-weight: 700;
 }
 #article1{
-    width: 300px;
+    font-size: clamp(10px, 12vw, 18px);
 }
 
 /* Footer */
@@ -97,6 +98,10 @@ h4{
     text-align: center;
     border: none;
 }
+#newletter{
+    margin-left: 8rem;
+    border: 1px solid white;
+}
 #arrow{
     margin-right: 1rem;
     background: #C4C4C4;
@@ -112,7 +117,7 @@ h4{
     border: none;
 }
 
-.logo{
+#logo{
     width: 20%;
     padding: 4rem;
 }
@@ -120,11 +125,11 @@ h4{
     background-color: #F4F4F4;
 
 }
-.big-contain{
+#big-contain{
     width: 80%;
     padding: 2rem;
 }
-.small-contain{
+#small-contain{
     display: flex;
     margin-bottom: 1rem;
 }
@@ -141,7 +146,6 @@ h4{
 #footer-list {
     padding: 1rem O;
     display: flex;
-    justify-content: flex-end;
     list-style-type: none;
 }
 .footer-item {
@@ -152,21 +156,78 @@ h4{
     letter-spacing: 1.2px;
 }
 @media (max-width: 900px){
-    .marque-container{
+    /* >>header<< */
+    #sglr{
+        width: 100px;
+    }
+    nav{
+        display: none;
+    }
+    /* >>main<< */
+    .visuel{
+        width: 100%;
+    }
+    #coudre{
+        width: 40%;
+    }
+    /* >>footer<<< */
+    #marque-contain{
         flex-wrap: wrap;
+    }
+    #txt-marque{
+        width: 100%;
+    }
+    #big-contain{
+        flex-wrap: wrap;
+    }
+    .logos{
+        width: 10%;
+    }
+    #contactez-moi{
+        width: 270px;
+        height: 36px;
+        border: none;
+        flex-direction: column;
+    }
+    /* #newletter{
+        flex-direction: column;
+    } */
+    h4{
+        font-size: 14px;
+        justify-content: center;
+    }
+    label{
+        font-size: 14px;
+        justify-content: center;
+    }
+    #email{
+        margin-top: 1px;
+        width: 220px;
+        height: 40px;
+        border: none;
+    }
+    #arrow{
+        width: 36px;
+        height: 36px;
+    }
+    #last-row{
+        width: 100%;
+        flex-wrap: wrap;
+        border: none;
+    }
+    .footer-item{
+        justify-content: center;
     }
 }
 /* page collection */
 
-.collection{
+/* .collection{
     border: solid 4px turquoise;
     display: grid;
     grid-template-columns: repeat(auto-fill, 400px);
     grid-template-rows: 1fr 1fr 1fr;
-    /* grid-gap: 5px; */
     align-items: center;
     max-width: 1300px;
-    /* width: 80%; */
     height: auto;
     justify-content: center;
     margin: 3px auto;
@@ -174,9 +235,9 @@ h4{
 
 .collection img {
     object-fit: contain;
-    /* width: 400px;
-    height: 200px; */
-}
+    width: 400px;
+    height: 200px;
+} */
 
 /* .article1{
     grid-column: 1;

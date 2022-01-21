@@ -13,19 +13,22 @@
 
 <body>
     <header>
+        <a href="accueil.html"><img id="sglr" src="assets/LOGO.svg" alt="Singuliere"></a>
         <nav> 
-            <img id="sglr" src="assets/LOGO.svg" alt="Singuliere">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#collection">collection</a></li>
-                <li class="nav-item"><a href="#demi mesure">demi mesure</a></li>
-                <li class="nav-item"><a href="#la marque">la marque</a></li>
+                <li class="nav-item"><a href="collection.html">collection</a></li>
+                <li class="nav-item"><a href="demimesure.html">demi mesure</a></li>
+                <li class="nav-item"><a href="marque.html">la marque</a></li>
             </ul>
         </nav>
+        <div class="burger">
+            <span></span>
+        </div>
+        
     </header>
 
     <main>
-        <div class="collection">
-    
+        <div id="collection">
             <div class="article1">
                 <img src="assets/chemisier-blanc.png" alt="">
                 <ul>
@@ -98,34 +101,36 @@
     <div class="container-grille">
         <div id="block1">
             <img class="sglr" src="assets/LOGO-n.svg" alt="logo Singuliere sombre">
-            <div class="rs">
-                <img class="logos" src="assets/facebook.svg" alt="fb">
-                <img class="logos" src="assets/linkedin.svg" alt="link">
-                <img class="logos" src="assets/instagram.svg" alt="insta">
-                <img class="logos" src="assets/youtube.svg" alt="youtube">
-            </div>
+                <ul class="rs">
+                    <li>Facebook</li>
+                    <li><a href="https://www.instagram.com/singuliere.fr/">Instagram</a></li>
+                    <li>Youtube</li>
+                    <li><a href="https://www.linkedin.com/company/singuli%C3%A8re">Linked'in</a></li>
+                </ul>
         </div>
     
         <div id="preco">
             <h4>precommande</h4>
             <button id="contactez-moi"><a href="mailto: fatouma.soultan@gmail.com">contactez-moi</a</button>
-            
         </div>
+
         <div id="newletter">
             <h4>newsletter</h4>
             <p>Inscrivez-vous pour ne rien louper !</p>
             <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="votre e-mail">
             <button id="arrow">➩</button>
         </div>
-        <div id="last-row">
-            <p class="footer-item">© 2022, Singulière, tous droits réservés</p>
+
+        <div id="baseline">
             <ul id="footer-list">
+                <li class="footer-item">© 2022, Singulière, tous droits réservés</li>
                 <li class="footer-item"><a href="">Mentions légales</a></li>
                 <li class="footer-item"><a href="">CGU</a></li>
                 <li class="footer-item"><a href="">Guide mensuration</li>
             </ul>
         </div>
     </div>
+    <script src="app.js"></script>
 </footer>
     
 

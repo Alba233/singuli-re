@@ -53,12 +53,12 @@ nav{
     padding: 1rem;
     display: flex;
     justify-content: center;
-    list-style-type: none; 
+    list-style-type: none;
+    gap: 55px;
 }
 .nav-item {
     font-family: 'Palanquin', sans-serif;
     font-weight: 700;
-    margin-right: 7rem;
     transition: 0.7s ease;
 }
 .nav-item a {

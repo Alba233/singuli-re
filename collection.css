@@ -1,0 +1,23 @@
+/* COLLECTION */
+#collection{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px);
+    grid-template-rows: auto auto auto;
+    align-items: center;
+    max-width: auto;
+    height: auto;
+    justify-content: center;
+    margin-top: 1rem;
+}
+#tillte{
+    text-align: center;
+    font-size: 18px;
+}
+main ul{
+    list-style-type: none;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+}
+#collection img {
+    object-fit: contain;
+}

@@ -1,0 +1,43 @@
+/* >>> ACCUEIL - bienvenue  */
+#bienvenue{
+    background-image: url('assets/accueil2.png') no-repeat 50% 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+#start{
+    position: absolute;
+    height: 100vh;
+    background-image: url('assets/accueil1.png');
+}
+
+/* >>> ACCUEIL - section intro */
+#marque-contain{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#coudre{
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    max-width: 505px;
+    max-height: 599px;
+    padding: 4rem;
+}
+#txt-marque{
+    width: 40%;
+    padding: 3rem;
+    align-self: center;
+    text-align: center;
+}
+h1{
+    font-size: clamp(12px, 12vw, 24px);
+    padding-bottom: 4rem;
+    align-self: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#article1{
+    font-size: clamp(8px, 12vw, 18px);
+    line-height: normal;
+}

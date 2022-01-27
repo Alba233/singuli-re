@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Singuliere</title>
 </head>
@@ -39,32 +40,26 @@
         </div>
        
         <div class="damier">
-            <section class="rectangle">
+            <div class="container-d">
                 <img src="assets/damier1.png" alt="">
                 <div class="square"> 
                     <p class="subtittle">première collection</p>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
                 </div>
-            </section>
-          
-            <section class="rectangle">
+            </div>
+            <div class="container-d pair">
                 <div class="square">
                     <p class="subtittle">mon inspiration</p>
                     <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, velit?</span>
                 </div>
-                
                 <img src="assets/damier2.png" alt="">
-            </section>
-            
-            <section class="rectangle">
+            </div>
+            <div class="container-d">
                 <img src="assets/damier3.png" alt="">
                 <div class="square">
                     <p class="subtittle">une hisoire de femme</p>
                     <span>Lorem ipsum dolor sit amet.</span>
-
-                </div>
-            </section>
-            
+            </div>
         </div>
     </div>
         
@@ -91,7 +86,7 @@
                 <h4>newsletter</h4>
                 <p>Inscrivez-vous pour ne rien louper !</p>
                 <div>
-                    <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="votre e-mail">
+                    <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="   votre e-mail">
                     <button id="arrow">➩</button>
                 </div>
                  

@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Singuliere</title>
 </head>
@@ -27,29 +28,34 @@
     </header>
 
     <main>
-        <p class="item">singulière> chemisier</p>
-        <div class="container-produit">
-            <div class="images-produit">
-                <img class="chemise1" src="assets/chemise-ami.jpg" alt="image produit">
-                <img class="chemise2" src="assets/chemise-ami2.jpg" alt="image produit">
-            </div>
-            <div class="text-produit">
-                <ul>
-                    <li id="name">chemisier omega</li>
-                    <li id="prix">140 €</li>
-                    <li>SKUY1620YAH_10</li>
-                    <li id="demimesure">demi mesure</li>
-                    <li id="partager">Vous pouvez nous partager vos mensuration</li>
-                    <li><button class="button black">ajouter au panier</button></li>
-                    <li><button class="button white">choisir ma taille</button></li>
-                </ul>
-                <ul id="liens">
-                    <li>descpriction</li>
-                    <li>coupe</li>
-                    <li>composition</li>
-                </ul>
-            </div>
+        <p class="item m">singulière > chemisier</p>
+        <div class="big-container">
+            <a href="collection.html"><p class="item">retour</p></a>
+            <div class="container-produit">
+                <div class="images-produit">
+                    <img class="chemise1" src="assets/chemise-ami.jpg" alt="image produit">
+                    <img class="chemise2" src="assets/chemise-ami2.jpg" alt="image produit">
+                </div>
+                <div class="text-produit">
+                    <ul>
+                        <li id="name">chemisier omega</li>
+                        <li id="prix">140 €</li>
+                        <li>SKUY1620YAH_10</li>
+                        <li id="demimesure">demi mesure</li>
+                        <li id="partager">Vous pouvez nous partager vos mensuration</li>
+                        <li><button class="button black">ajouter au panier</button></li>
+                        <li><button class="button white">choisir ma taille</button></li>
+                    </ul>
+                    <ul id="liens">
+                        <li>descpriction</li>
+                        <li>coupe</li>
+                        <li>composition</li>
+                    </ul>
+                </div>
         </div>
+
+        </div>
+        
         
     </main>
 
@@ -74,7 +80,7 @@
                 <h4>newsletter</h4>
                 <p>Inscrivez-vous pour ne rien louper !</p>
                 <div>
-                    <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="votre e-mail">
+                    <input type="email" id="email" pattern=".+@globex\.com" size="30" placeholder="   votre e-mail">
                     <button id="arrow">➩</button>
                 </div>
                 

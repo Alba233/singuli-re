@@ -3,6 +3,9 @@
     margin: 0;
     text-decoration: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-color: #FFFEFB;
     color: #111411;
@@ -45,7 +48,7 @@ header{
 }
 /* fin menu burger */
 nav{
-    background-color: plum;
+    background-color: #FFFEFB;
 }
 .nav-list {
     padding: 1rem;
@@ -63,7 +66,7 @@ nav{
     color: #111411;
 }
 .nav-item a:hover {
-    font-size: 20px;
+    color: #808080;
     font-weight: 800;
 }
 
@@ -116,6 +119,10 @@ h1{
     height: auto;
     justify-content: center;
     margin-top: 1rem;
+}
+#tillte{
+    text-align: center;
+    font-size: 18px;
 }
 main ul{
     list-style-type: none;
@@ -309,6 +316,9 @@ h4{
     height: 40px;
     border: none;
 }
+#email::placeholder{
+    margin-left: 5px;
+}
 #footer-list {
     display: flex;
     justify-content: flex-end;
@@ -320,6 +330,7 @@ h4{
     margin-right: 3rem;
     color: #F4F4F4;
 }
+
 .copyright{
     justify-content: flex-start;
 }
@@ -327,10 +338,13 @@ h4{
     color: #F4F4F4;
     letter-spacing: 1.2px;
 }
+
+.footer-item a:hover{
+    color: #808080;
+}
 @media (max-width: 900px){
     /* >>header<< */
     header{
-        background-color: #FFFEFB;
         display: block;
         width: 100%;
     }

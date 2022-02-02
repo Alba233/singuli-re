@@ -11,7 +11,8 @@
 }
 #title{
     font-size: 18px;
-}
+    margin-left: 10rem;
+}   
 main ul{
     list-style-type: none;
     margin-bottom: 20px;

@@ -4,6 +4,9 @@
     background-size: cover;
     overflow: hidden;
 }
+#bienvenue img{
+    max-width: 1900px;
+}
 #start{
     position: absolute;
     height: 100vh;
@@ -27,8 +30,6 @@
 #txt-marque{
     width: 40%;
     padding: 3rem;
-    align-self: center;
-    text-align: center;
 }
 h1{
     font-size: clamp(12px, 12vw, 24px);
@@ -40,4 +41,5 @@ h1{
 #article1{
     font-size: clamp(8px, 12vw, 18px);
     line-height: normal;
+    letter-spacing: 1px;
 }

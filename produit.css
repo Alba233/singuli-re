@@ -29,6 +29,10 @@
 .text-produit{
     padding: 1rem;
 }
+.text-produit ul{
+    list-style-type: none;
+}
+
 .text-produit ul li{
     text-transform: uppercase;
 }

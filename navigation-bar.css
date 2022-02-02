@@ -8,7 +8,6 @@ nav{
 .nav-list{
     display: flex;
     justify-content: space-around;
-    
 }
 .nav-list li{
     list-style: none;
@@ -50,12 +49,13 @@ nav{
         position: absolute;
         left: 0px;
         height: 92vh;
-        top: 10vh;
+        top: 12vh;
         background-color: #ffc6e7;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
+        transform: translateX(0%);
         transition: transform 0.5s ease-in;
     }
     .nav-list li{
@@ -73,12 +73,12 @@ nav{
 @keyframes navLinkFade{
     from{
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(0px);
     }
 
     to{
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateX(50px);
     }
 }
 

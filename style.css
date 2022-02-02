@@ -164,7 +164,7 @@ h4{
 .footer-item a:hover{
     color: #808080;
 }
-@media (max-width: 900px){
+@media (max-width: 768px){
     body{
         overflow-x: hidden;}
     /* >>main accueil<< */
@@ -176,8 +176,8 @@ h4{
         flex-wrap: wrap;
     }
     #txt-marque{
-        width: 80%;
-        padding: 3rem;
+        width: auto;
+        padding: 1rem;
     }
     h1{
        padding-bottom: 1rem; 

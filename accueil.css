@@ -1,17 +1,13 @@
 /* >>> ACCUEIL - bienvenue  */
-#bienvenue{
+/* #bienvenue{
     background-image: url('assets/accueil2.png') no-repeat 50% 50%;
     background-size: cover;
     overflow: hidden;
-}
+} */
 #bienvenue img{
     max-width: 1900px;
 }
-#start{
-    position: absolute;
-    height: 100vh;
-    background-image: url('assets/accueil1.png');
-}
+
 
 /* >>> ACCUEIL - section intro */
 #marque-contain{
@@ -28,7 +24,7 @@
     padding: 4rem;
 }
 #txt-marque{
-    width: 40%;
+    margin: 2rem;
     padding: 3rem;
 }
 h1{

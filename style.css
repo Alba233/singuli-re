@@ -197,6 +197,11 @@ h4{
         padding: 1rem;
         width: auto;
     }
+    .images-produit{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
     .text-produit ul li{
         text-align: center;
     }
@@ -207,7 +212,6 @@ h4{
     }
     .chemise1{
         width: 500px;
-        align-items: center;
     }
     .chemise2{
         display: none;

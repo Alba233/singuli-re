@@ -23,7 +23,10 @@ main ul{
 
 @media screen and (max-width:568px){
     #collection img{
-        width: auto;
+        max-width: 430px;
+    }
+    main ul{
+        margin-left: 2rem;
     }
 
 }

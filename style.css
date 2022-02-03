@@ -167,55 +167,7 @@ h4{
 @media (max-width: 768px){
     body{
         overflow-x: hidden;}
-    /* >>main accueil<< */
-
-    #bienvenue img{
-        width: 100%;
-    }
-    #marque-contain{
-        flex-wrap: wrap;
-    }
-    #txt-marque{
-        width: auto;
-        padding: 1rem;
-    }
-    h1{
-       padding-bottom: 1rem; 
-    }
-    
-    #coudre{
-        width: 50%;
-        padding: 20px;
-    }
-
-    /* main produit  */
-    .container-produit{
-        width: 100%;
-        flex-direction: column;
-    }
-    .text-produit{
-        padding: 1rem;
-        width: auto;
-    }
-    .images-produit{
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
-    .text-produit ul li{
-        text-align: center;
-    }
-    #liens{
-        flex-direction: column;
-        justify-content: center;
-        margin: 12px 0;
-    }
-    .chemise1{
-        width: 500px;
-    }
-    .chemise2{
-        display: none;
-    }
+        
     /* >>footer<<< */
     .container-grille{
         display: flex;
@@ -277,22 +229,4 @@ h4{
         justify-content: center;
     }
 
-    /* main marque */
-    .damier{
-        flex-direction: column;
-    }
-    .container-d{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .pair{
-        flex-direction: column-reverse;
-    }
-    .damier img{
-        width: 100%;
-    }
-    .square{
-        height: 800px;
-        width: 100%;
-        padding: 1rem;
-    }
+}

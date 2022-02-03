@@ -71,3 +71,33 @@
     justify-content: space-around;
     display: flex;
 }
+
+@media (max-width: 768px){
+    .container-produit{
+        width: 100%;
+        flex-direction: column;
+    }
+    .text-produit{
+        padding: 1rem;
+        width: auto;
+    }
+    .images-produit{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .text-produit ul li{
+        text-align: center;
+    }
+    #liens{
+        flex-direction: column;
+        justify-content: center;
+        margin: 12px 0;
+    }
+    .chemise1{
+        width: 500px;
+    }
+    .chemise2{
+        display: none;
+    }
+}

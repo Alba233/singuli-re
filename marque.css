@@ -40,3 +40,24 @@ article{
     justify-content: center;
     vertical-align: middle;
 }
+
+@media (max-width: 768px){
+    .damier{
+        flex-direction: column;
+    }
+    .container-d{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pair{
+        flex-direction: column-reverse;
+    }
+    .damier img{
+        width: 100%;
+    }
+    .square{
+        height: 800px;
+        width: 100%;
+        padding: 1rem;
+    }
+}

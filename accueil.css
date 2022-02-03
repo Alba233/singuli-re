@@ -8,8 +8,6 @@
     max-width: 1900px;
 }
 
-
-/* >>> ACCUEIL - section intro */
 #marque-contain{
     display: flex;
     justify-content: space-around;
@@ -38,4 +36,24 @@ h1{
     font-size: clamp(8px, 12vw, 18px);
     line-height: normal;
     letter-spacing: 1px;
+}
+@media (max-width: 768px){
+    #bienvenue img{
+        width: 100%;
+    }
+    #marque-contain{
+        flex-wrap: wrap;
+    }
+    #txt-marque{
+        width: auto;
+        padding: 1rem;
+    }
+    h1{
+       padding-bottom: 1rem; 
+    }
+    
+    #coudre{
+        width: 50%;
+        padding: 20px;
+    }
 }

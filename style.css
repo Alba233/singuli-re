@@ -170,7 +170,7 @@ h4{
     /* >>main accueil<< */
 
     #bienvenue img{
-        min-width: 500px;
+        width: 100%;
     }
     #marque-contain{
         flex-wrap: wrap;

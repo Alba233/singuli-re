@@ -32,10 +32,9 @@ h1{
     text-transform: uppercase;
     font-weight: 700;
 }
-#article1{
+article{
     font-size: clamp(8px, 12vw, 18px);
     line-height: normal;
-    letter-spacing: 1px;
 }
 @media (max-width: 768px){
     #bienvenue img{

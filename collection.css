@@ -1,9 +1,7 @@
 #collection{
     display: grid;
     grid-template-columns: repeat(auto-fill, 400px);
-    grid-template-rows: auto auto auto;
     align-items: center;
-    max-width: auto;
     height: auto;
     justify-content: center;
     margin-top: 1rem;

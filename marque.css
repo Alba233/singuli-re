@@ -8,15 +8,15 @@
     display: flex;
 }
 article{
-    font-size: 13px;
-    padding: 4rem;
-    background-color: #e3e4d0 ;
+    font-size: 1rem;
+    padding: 2rem 14rem;
+    text-align: center;
 }
 .story{
     display: flex;
     flex-direction: column;
-}
-.damier{
+}   
+.damier{    
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -32,12 +32,14 @@ article{
 .square{
     display: flex;
     flex-direction: column;
+    background-color: #F0F0F0;
     width: 50%;
     max-height: 900px;
     text-align: center;
     justify-content: center;
     vertical-align: middle;
 }
+
 
 @media (max-width: 768px){
     .damier{
